@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.list{
+  height: 35px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.list li{
+  cursor: pointer;
+}
+.list li:hover{
+  color: #fff;
+}
